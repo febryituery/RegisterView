@@ -7,11 +7,11 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+public class RegisterViewController: UIViewController {
     
     public static let storyboardVC = UIStoryboard(name: "RegisterVC", bundle: Bundle.module).instantiateInitialViewController()!
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
