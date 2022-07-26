@@ -8,6 +8,8 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
+    
+    public static let storyboardVC = UIStoryboard(name: "RegisterVC", bundle: Bundle.module).instantiateInitialViewController()!
 
     override func viewDidLoad() {
         super.viewDidLoad()
